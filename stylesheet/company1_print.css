@@ -1,0 +1,139 @@
+/*
+Relative fonts defined in Body
+*/
+
+BODY, DIV, TD, P, .text, .largetext
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12pt;
+    COLOR: #000000;
+    LINE-HEIGHT: normal;
+    FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif;
+    MARGIN-TOP: 0px;    
+    MARGIN-LEFT: 0px;
+    MARGIN-RIGHT: 0px;
+}
+
+#TopLayer 
+{
+	display:none; 
+}
+
+
+#TitleLayer 
+{
+	position:absolute; 
+	width:600px; 
+	height:45px; 
+	z-index:2; 
+	left: 20px; 
+	top: 60px; 
+	background-color: #000000; 
+	layer-background-color: #000000; 
+	border: 1px none #000000;
+}
+
+
+#TextLayer
+{
+	position:absolute; 
+	width:550; 
+	height:150px; 
+	z-index:3; 
+	left: 20px; 
+	top: 130px;
+}
+
+
+#LeftLayer{
+	display:none;
+}
+
+
+A:link
+{
+    COLOR: midnightblue;
+    TEXT-DECORATION: underline;
+}
+
+A:hover
+{
+    COLOR: deepskyblue;
+}
+
+A:visited
+{
+    COLOR: midnightblue;
+    TEXT-DECORATION: underline;
+}
+
+.home
+{
+    COLOR: #000000;
+}
+
+.footer
+{
+    FONT-SIZE: 10pt;
+    COLOR: white;
+}
+.webindexer
+{
+    FONT-WEIGHT: bold;
+    COLOR: #000000;
+    FONT-STYLE: italic;
+}
+
+.blocktitle
+{
+    FONT-WEIGHT: bold;
+}
+
+.htmlcodes
+{
+    COLOR: maroon;
+    FONT-SIZE: 10pt;
+}
+
+H1
+{
+    FONT-WEIGHT: bold;
+}
+
+H2
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11pt;
+}
+
+.metalink
+{
+    FONT-SIZE: 10pt;
+}
+
+.maintitle
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14pt;
+    COLOR: #000000;
+}
+
+.white
+{
+    COLOR: white;
+	FONT-SIZE: 10pt;
+}
+
+.small
+{
+    FONT-SIZE: 10pt;
+}
+
+.smItem
+{
+    FONT-SIZE: 13pt;
+}
+
+.smSubItem
+{
+}

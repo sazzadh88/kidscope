@@ -1,0 +1,218 @@
+body 
+{
+	background-color:#ffffff;
+	margin-left:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-right:0px
+}
+@font-face 
+{
+	 font-family: Rachana_w01;
+	 src: url(Rachana_w01.eot);/* EOT file for IE */
+	 src: local("Rachana_w01"),url(Rachana_w01.TTF)format("truetype");
+}
+#TopLayer 
+{
+	display:none; 
+}
+.prn
+{
+	width:1000px;
+	height:1321px;
+	border-width:0px;
+	border-color:transparent;
+	border-style:none
+}
+table.brd
+{
+	border-style:solid;
+	border-color:#999999;
+	border-left-width:1px;	
+	border-right-width:1px;
+	border-top-width:1px;
+	border-bottom-width:1px
+}
+.dt2
+{
+font-size:28px;
+font-weight:bold;
+font-style : italic
+
+}
+td.h1
+{
+	font-family:Rachana_w01;
+	 
+	color:#000000;
+	font-size:28px;
+	font-weight:bold;
+	text-align:center
+}
+td.h7
+{
+	font-family:Rachana_w01;
+	color:#000000;
+	font-size:32px;
+	font-weight:bold;
+	text-align:left
+}
+td.dh7
+{
+	font-family:Rachana_w01;
+	color:#000000;
+	font-size:32px;
+	font-weight:bold;
+	text-align:center
+}
+td.h2
+{
+	font-family:Rachana_w01;
+	color:#000000;
+	font-size:36px;
+	font-weight:bold;
+	text-decoration: underline 
+}
+td.ch2
+{
+	font-family:Rachana_w01;
+	color:#000000;
+	font-size:30px;
+	font-weight:bold;
+	 
+}
+.hc
+{
+	vertical-align: top
+ 
+}
+.gridstyle
+{
+	font-family:Rachana_w01;
+	font-size:30px;
+	vertical-align: top
+	
+}
+.grdodd-row
+{
+	font-family:Rachana_w01;
+	font-size:30px;
+	padding-top: 15px;
+vertical-align: top
+}
+.grdeven-row
+{
+	font-family:Rachana_w01;
+	font-size:30px;
+	padding-top: 15px;
+vertical-align: top
+}
+td.sp
+{
+
+	 height: 25px
+}
+td.grdsp
+{
+
+	 height: 1.5px
+}
+td.dthead
+{
+ 	height: 40px;
+	font-size:38px;
+	font-weight:bold
+	 
+}
+td.dt1
+{
+	font-family:Rachana_w01;
+	color:#000000;
+	font-size:26px;
+	font-weight:bold;
+	text-align:justify
+}
+td.dtbold
+{
+	font-family:Rachana_w01;
+	color:#000000;
+	font-size:36px;
+	font-weight:bold;
+	text-align:justify
+}
+td.h3
+{
+	font-family:Rachana_w01;
+	color:#000000;
+	font-size:16px;
+	font-weight:bold
+}
+td.h4
+{
+	font-family:Rachana_w01;
+	color:#000000;
+	font-size:24px;
+	font-weight:bold
+}
+td.h8
+{
+	font-family:Rachana_w01;
+	color:#000000;
+	font-size:26px;
+	font-weight:bold;
+	font-style : italic
+}
+td.h9
+{
+	font-family:Rachana_w01;
+	color:#000000;
+	font-size:16px;
+	font-weight:bold
+}
+td.h5
+{
+	font-family:Rachana_w01;
+	 
+	font-size:24px;
+	font-weight:bold
+}
+td.h6
+{
+	font-family:Rachana_w01;
+	font-size:24px;
+	font-weight:bold
+}
+td.txt
+{
+	font-family:Rachana_w01;
+	color:#000000;
+	font-size:19px;
+	text-indent:5px;
+	text-align:justify
+}
+td.txt1
+{
+	font-family:Rachana_w01;
+	color:#000000;
+	font-size:16px;
+	
+}
+td.txt2
+{
+	font-family:Rachana_w01;
+	color:#000000;
+	font-size:18px;
+	font-weight:bold;
+	line-height: 28pt; 
+	text-align:justify 
+	
+}
+.grd3
+{
+	font-family:Rachana_w01;
+	color:#000000;
+	font-size:22px;
+	font-weight:bold;
+	line-height: 28pt; 
+	text-align:justify 
+}

@@ -1,0 +1,16 @@
+#{customer.dlrCustomersave}
+                                                  <f:setPropertyActionListener value="#{customer.sex}" target="#{grahanila.sex}"/>
+            			 Calendar calc = Calendar.getInstance();
+				System.out.print("ddddddddddddaaaaaaaaaaaaaatttttttttttttttteeeeeeeee"+birth_date);
+				calc.setTime(birth_date);
+			/*	cal.set(Calendar.HOUR, 00);
+				cal.set(Calendar.MINUTE, 00);
+				cal.set(Calendar.SECOND, 00);
+				cal.set(Calendar.AM_PM, 1);*/
+					//cal.set(Calendar.DATE, cal.get(Calendar.DATE)-1);
+					//birth_timehour=birth_timehour-12;
+				
+				calc.set(Calendar.HOUR, birth_timehour);
+				calc.set(Calendar.MINUTE, birth_timemin);
+				calc.set(Calendar.SECOND, birth_timesec);
+				birth_date=calc.getTime();

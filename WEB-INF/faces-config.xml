@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<faces-config
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_1_2.xsd"
+    version="1.2">
+    <application>
+                <locale-config>
+                	<default-locale>ml_IN</default-locale>
+                     <supported-locale>en_US</supported-locale>
+                </locale-config>
+   <message-bundle>kids.kidspropmala_ml_IN</message-bundle>
+  
+         </application>
+    
+	<managed-bean>
+		<managed-bean-name>customer</managed-bean-name>
+		<managed-bean-class>kids.customer</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>dealer</managed-bean-name>
+		<managed-bean-class>kids.dealer</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>admin</managed-bean-name>
+		<managed-bean-class>kids.admin</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>kidsdatalist</managed-bean-name>
+		<managed-bean-class>kids.kidsdatalist</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>grahanila</managed-bean-name>
+		<managed-bean-class>kids.grahanila</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>valueCEMethod</managed-bean-name>
+		<managed-bean-class>kids.ValueCEMethod</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>mailClient</managed-bean-name>
+		<managed-bean-class>kids.MailClient</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>mail</managed-bean-name>
+		<managed-bean-class>kids.Mail</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>numerology</managed-bean-name>
+		<managed-bean-class>kids.numerology</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>xMLReader</managed-bean-name>
+		<managed-bean-class>kids.XMLReader</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>kidAstro</managed-bean-name>
+		<managed-bean-class>kids.KidAstro</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	
+<validator>
+        <validator-id>kids.PasswordValidationBean</validator-id>
+        <validator-class>kids.PasswordValidationBean</validator-class>
+    </validator>
+<validator>
+        <validator-id>kids.EmailValidator</validator-id>
+        <validator-class>kids.EmailValidator</validator-class>
+    </validator>
+<navigation-rule >
+<from-view-id>*</from-view-id>
+<navigation-case>
+<from-outcome>customer</from-outcome>
+<to-view-id>signupuser.jsp</to-view-id>
+</navigation-case>
+
+<navigation-case>
+<from-outcome>rttolife</from-outcome>
+<to-view-id>lifescopedataentry.jsp</to-view-id>
+</navigation-case>
+
+<navigation-case>
+<from-outcome>season</from-outcome>
+<to-view-id>ritus.jsp</to-view-id>
+</navigation-case>
+
+<navigation-case>
+<from-outcome>ephimeris</from-outcome>
+<to-view-id>manage_ephimeris.jsp</to-view-id>
+</navigation-case>
+
+<navigation-case>
+<from-outcome>prednew</from-outcome>
+<to-view-id>predictionnew.jsp</to-view-id>
+</navigation-case>
+
+
+<navigation-case>
+<from-outcome>prednewmal</from-outcome>
+<to-view-id>predictionnewmal.jsp</to-view-id>
+</navigation-case>
+
+<navigation-case>
+<from-outcome>manage</from-outcome>
+<to-view-id>dlrreport.jsp</to-view-id>
+</navigation-case>
+
+
+<navigation-case>
+<from-outcome>managedlrreq</from-outcome>
+<to-view-id>dealerlist.jsp</to-view-id>
+</navigation-case>
+
+<navigation-case>
+<from-outcome>user</from-outcome>
+<to-view-id>manageuser.jsp</to-view-id>
+</navigation-case>
+
+<navigation-case>
+<from-outcome>report</from-outcome>
+<to-view-id>managereport.jsp</to-view-id>
+</navigation-case>
+
+<navigation-case>
+<from-outcome>customerpage</from-outcome>
+<to-view-id>customerwebdesign1.jsp</to-view-id>
+</navigation-case>
+
+<navigation-case>
+<from-outcome>dealerpage</from-outcome>
+<to-view-id>dealerloginpage.jsp</to-view-id>
+</navigation-case>
+
+<navigation-case>
+<from-outcome>adminpage</from-outcome>
+<to-view-id>adminloginpage.jsp</to-view-id>
+</navigation-case>
+
+<navigation-case>
+<from-outcome>ephimerisentry</from-outcome>
+<to-view-id>manage_ephimeris.jsp</to-view-id>
+</navigation-case>
+
+<navigation-case>
+<from-outcome>entrycustomer</from-outcome>
+<to-view-id>signupuser.jsp</to-view-id>
+</navigation-case>
+
+<navigation-case>
+<from-outcome>entrydealer</from-outcome>
+<to-view-id>dealerloginpage.jsp</to-view-id>
+</navigation-case>
+
+<navigation-case>
+<from-outcome>viewhoroscope</from-outcome>
+<to-view-id>viewhsp.jsp</to-view-id>
+</navigation-case>
+
+<navigation-case>
+<from-outcome>report</from-outcome>
+<to-view-id>managereport.jsp</to-view-id>
+</navigation-case>
+
+<navigation-case>
+<from-outcome>predicten</from-outcome>
+<to-view-id>prediction.jsp</to-view-id>
+</navigation-case>
+
+<navigation-case>
+<from-outcome>predicten0</from-outcome>
+<to-view-id>prediction0.jsp</to-view-id>
+</navigation-case>
+
+<navigation-case>
+<from-outcome>dealerpage</from-outcome>
+<to-view-id>dealer.jsp</to-view-id>
+</navigation-case>
+
+
+<navigation-case>
+<from-outcome>dlrephimeris</from-outcome>
+<to-view-id>
+dlrephimeris.jsp</to-view-id>
+</navigation-case>
+
+<navigation-case>
+<from-outcome>dlrreport</from-outcome>
+<to-view-id>
+dlrreportfordlr.jsp</to-view-id>
+</navigation-case>
+
+<navigation-case>
+<from-outcome>logout</from-outcome>
+<to-view-id>
+index.jsp</to-view-id>
+</navigation-case>
+
+<navigation-case>
+<from-outcome>rpassword</from-outcome>
+<to-view-id>
+adminpassword.jsp</to-view-id>
+</navigation-case>
+
+<navigation-case>
+<from-outcome>resevecash</from-outcome>
+<to-view-id>
+dlrcashcollect.jsp</to-view-id>
+</navigation-case>
+
+
+<navigation-case>
+<from-outcome>errorpage</from-outcome>
+<to-view-id>
+error.jsp</to-view-id>
+</navigation-case>
+
+
+</navigation-rule>
+
+</faces-config>

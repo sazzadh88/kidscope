@@ -1,0 +1,32 @@
+@CHARSET "ISO-8859-1";
+.inputtxt
+{
+background-color: blue;
+ 
+}
+h1
+{
+border: medium;
+}
+ body
+ {
+ background-color:#00FFFF;
+
+ }
+ .panelgrid
+ {
+ background-color:#FF69B4 ;
+ }
+ .inputtext
+ {
+ font-style: italic;
+ }
+ .outputlabel
+ {
+ text-align: left;
+ }
+ .message
+ {
+ color: red; 
+ background-color: red;
+ }
